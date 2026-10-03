@@ -5,9 +5,7 @@ export default function PaymentMethods({ lang }: { lang: 'fa' | 'en' }) {
     fa: { title: 'روش‌های پرداخت', subtitle: 'پرداخت امن و سریع از هر جای دنیا', usdt: 'تتر (USDT)', usdtDesc: 'شبکه TRC20 • سریع، ارزان و بین‌المللی', wallet: 'آدرس کیف پول:', zarinpal: 'زرین‌پال', zarinpalDesc: 'برای مشتریان داخل ایران • پرداخت ریالی', soon: 'به‌زودی' },
     en: { title: 'Payment Methods', subtitle: 'Secure and fast payment from anywhere', usdt: 'Tether USDT', usdtDesc: 'TRC20 Network • Fast, cheap and international', wallet: 'Wallet Address:', zarinpal: 'Zarinpal', zarinpalDesc: 'For Iranian customers • Rial payments', soon: 'Coming soon' },
   }[lang]
-  const WALLET = 'TXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-  return (
-    <section id="payment" className="py-24 px-6">
+  const WALLET ='TXAshSffuAvj5ZmErtTSqymofoZMzP1sXn '    <section id="payment" className="py-24 px-6">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black text-white mb-4">{t.title}</h2>
