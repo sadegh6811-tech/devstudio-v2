@@ -33,12 +33,12 @@ export default function Contact({ lang }: { lang: 'fa' | 'en' }) {
             {sent && <div className="text-center text-green-400 text-sm pt-2">{t.sent}</div>}
           </form>
           <div className="space-y-4">
-            <a href="mailto:support@devstudio.com" className="block p-6 rounded-3xl glass hover:bg-white/[0.08] transition">
+            <a href="mailto:sadegh6811@gmail.com" className="block p-6 rounded-3xl glass hover:bg-white/[0.08] transition">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-xl bg-purple-500/20 border border-purple-500/40 flex items-center justify-center"><Mail size={22} className="text-purple-400" /></div>
                 <div>
                   <div className="text-white/50 text-xs">{t.emailUs}</div>
-                  <div className="text-white font-semibold">support@devstudio.com</div>
+                  <div className="text-white font-semibold">sadegh6811@gmail.com</div>
                 </div>
               </div>
             </a>
